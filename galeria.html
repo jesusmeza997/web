@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario y Galería</title>
+    <link rel="stylesheet" type="text/css" href="miestilo3.css">
+    <link rel="stylesheet" type="text/css" href="miestilo4.css">
+    <style>
+        body {
+        background-color: #ADD8E6;
+        font-family: Arial, sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        }
+        h1, h2 {
+            color: #003366;
+        }
+        p {
+            text-align: justify;
+        
+            font-size: 16px;
+        }
+        .container {
+            margin: 10%;
+        
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+            max-width: 500px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            
+            border-radius: 4px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+           
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+    <h2 style="text-align: center;">Formulario Personal</h2>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="alan2.html">Página 2</a></li>
+            <li><a href="alan3.html">Galería</a></li>
+        </ul>
+    </nav>
+    <center><form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad">
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="pais">País:</label>
+        <input type="text" id="pais" name="pais">
+    </form></center>
+
+    <center><h2>Galería de Fotos</h2></center>
+    <div class="gallery">
+       
+        <img src="imagenes/7.jpg" alt="foto 1">
+        <img src="imagenes/8.jpg" alt="foto 2">
+        <img src="imagenes/9.jpg" alt="foto 3">
+        <img src="imagenes/10.jpg" alt="foto 4">
+        <img src="imagenes/11.jpg" alt="foto 5">
+        <img src="imagenes/12.jpg" alt="foto 6">
+        <img src="imagenes/13.jpg" alt="foto 7">
+        <img src="imagenes/14.jpg" alt="foto 8">
+        <img src="imagenes/15.jpg" alt="foto 9">
+        <img src="imagenes/16.jpg" alt="foto 10">
+        <img src="imagenes/17.jpg" alt="foto 11">
+        <img src="imagenes/18.jpg" alt="foto 12">
+        <img src="imagenes/19.jpg" alt="foto 13">
+        <img src="imagenes/20.jpg" alt="foto 14">
+        <img src="imagenes/21.jpg" alt="foto 15">
+        <img src="imagenes/22.jpg" alt="foto 16">
+        <img src="imagenes/23.jpg" alt="foto 17">
+        <img src="imagenes/24.jpg" alt="foto 18">
+    </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <img src="imagenes/6.jpg" class="img6">
+            <P>Jesus Armando Meza Barraza</P>
+
+            
+        </div>
+    </footer>
+
+</body>
+</html>
